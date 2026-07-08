@@ -1,0 +1,2 @@
+ALTER TABLE pedido ADD COLUMN total_productos INTEGER DEFAULT 0;
+INSERT INTO schema_migrations (version) VALUES ('008_add_total_productos_to_pedido');
